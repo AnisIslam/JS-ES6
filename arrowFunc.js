@@ -1,8 +1,11 @@
-function add(x,y){
+// function add(x,y){
+//     const result = x+y;
+//     return result;
+// }
+const add = (x,y) =>{
     const result = x+y;
     return result;
 }
-
 function show(){
     console.log ('bhaire bhai')
 }
