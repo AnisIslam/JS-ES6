@@ -11,4 +11,7 @@ function show(){
 }
 
 console.log(add(2,3))
-show()
+// show()
+
+const addValue = (a=0,b=0) => a+b
+console.log(addValue(4,5))
